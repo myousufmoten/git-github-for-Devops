@@ -15,3 +15,22 @@ git --help                           Shows Git commands and general help.
 git commit --help                    Shows detailed help for the git commit command.
 git rm one.py                        Removes one.py and stages its deletion.
 git restore one.py                   Restores one.py to its last committed state.
+
+
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+Adds the GitHub repository as a remote named origin.
+
+git remote -v
+Shows the fetch and push URLs of the remote repository.
+
+git remote set-url origin https://USERNAME@github.com/USERNAME/REPOSITORY.git
+Changes the URL of the existing origin remote.
+
+git remote -v
+Verifies the updated remote URL.
+
+clear
+Clears the terminal screen.
+
+git push origin master
+Pushes the local master branch to the GitHub repository.
