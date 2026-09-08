@@ -1,0 +1,17 @@
+
+git init                             Initializes a new Git repository.
+ls -a                                Shows all files, including hidden files.
+clear                                Clears the terminal screen.
+dir                                  Lists files and directories.
+ls                                   Lists files and directories.
+ls -l                                Shows files with detailed information.
+dir /a                               Shows all files, including hidden files, in Windows.
+Get-ChildItem -Force                 Shows all files, including hidden files, in PowerShell.
+git status                           Shows the current Git repository status.
+git add .                            Stages all changed files for commit.
+git commit -m "Added sum program"    Saves staged changes as a Git commit.
+git log                              Shows the commit history.
+git --help                           Shows Git commands and general help.
+git commit --help                    Shows detailed help for the git commit command.
+git rm one.py                        Removes one.py and stages its deletion.
+git restore one.py                   Restores one.py to its last committed state.
