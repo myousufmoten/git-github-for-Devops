@@ -1,5 +1,4 @@
-print("Welcome Dears")
-numOne = 5
-numTwo = 9
-Result = 5 + 9
-print(f"The Sum Of {numOne} & {numTwo} Is: ", Result)
+NUM_ONE = 5
+NUM_TWO = 9
+RESULT = NUM_ONE + NUM_TWO
+print(f"The Sum Of {NUM_ONE} & {NUM_TWO} Is: ", RESULT)
