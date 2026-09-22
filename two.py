@@ -1,8 +1,8 @@
-def FuncOne():
-    numO = 5
-    numT = 5
-
-    return numO + numT
+"""Module containing utility functions."""
 
 
-FuncOne()
+def func_one():
+    """Demonstrate basic variable declaration inside a function."""
+    num_o = 5
+    num_t = 10
+    return num_o + num_t
